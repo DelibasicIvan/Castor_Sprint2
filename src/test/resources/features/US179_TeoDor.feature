@@ -1,4 +1,4 @@
-@US02_B29G12_179_TeoDor
+@US179_TeoDor
 Feature: As a user, I should access to the Oroinc Documentation page.
 
   Background:

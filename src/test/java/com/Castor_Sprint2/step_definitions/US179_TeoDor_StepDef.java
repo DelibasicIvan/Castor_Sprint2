@@ -1,18 +1,16 @@
 package com.Castor_Sprint2.step_definitions;
 
-import com.Castor_Sprint2.pages.US02_B29G12_179_TeoDor_QL_Page;
+import com.Castor_Sprint2.pages.TeoDor_QL_Page;
 import com.Castor_Sprint2.utilities.BrowserUtils;
-import com.Castor_Sprint2.utilities.ConfigurationReader;
 import com.Castor_Sprint2.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.WebElement;
 
 import java.util.Set;
 
-public class US02_B2912_179_TeoDor_StepDef {
-    US02_B29G12_179_TeoDor_QL_Page vytrackQuickLaunchpad = new US02_B29G12_179_TeoDor_QL_Page();
+public class US179_TeoDor_StepDef {
+    TeoDor_QL_Page vytrackQuickLaunchpad = new TeoDor_QL_Page();
 
     @When("user click {string} icon")
     public void user_click_icon(String mark) {
