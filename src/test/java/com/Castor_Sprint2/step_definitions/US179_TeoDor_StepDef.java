@@ -1,6 +1,6 @@
 package com.Castor_Sprint2.step_definitions;
 
-import com.Castor_Sprint2.pages.TeoDor_QL_Page;
+import com.Castor_Sprint2.pages.TeoDor_QL_Pages;
 import com.Castor_Sprint2.utilities.BrowserUtils;
 import com.Castor_Sprint2.utilities.Driver;
 import io.cucumber.java.en.Then;
@@ -10,7 +10,7 @@ import org.junit.Assert;
 import java.util.Set;
 
 public class US179_TeoDor_StepDef {
-    TeoDor_QL_Page vytrackQuickLaunchpad = new TeoDor_QL_Page();
+    TeoDor_QL_Pages vytrackQuickLaunchpad = new TeoDor_QL_Pages();
 
     @When("user click {string} icon")
     public void user_click_icon(String mark) {

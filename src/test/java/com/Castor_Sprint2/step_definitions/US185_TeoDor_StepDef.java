@@ -1,6 +1,6 @@
 package com.Castor_Sprint2.step_definitions;
 
-import com.Castor_Sprint2.pages.TeoDor_QL_Page;
+import com.Castor_Sprint2.pages.TeoDor_QL_Pages;
 import com.Castor_Sprint2.utilities.BrowserUtils;
 import com.Castor_Sprint2.utilities.Driver;
 import io.cucumber.java.en.Then;
@@ -9,7 +9,7 @@ import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
 
 public class US185_TeoDor_StepDef {
-    TeoDor_QL_Page CalendarPage = new TeoDor_QL_Page ();
+    TeoDor_QL_Pages CalendarPage = new TeoDor_QL_Pages();
     Actions actions = new Actions(Driver.getDriver());
 
 

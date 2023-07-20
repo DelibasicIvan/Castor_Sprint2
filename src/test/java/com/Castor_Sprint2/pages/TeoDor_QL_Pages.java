@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TeoDor_QL_Page {
-    public TeoDor_QL_Page(){
+public class TeoDor_QL_Pages {
+    public TeoDor_QL_Pages(){
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
