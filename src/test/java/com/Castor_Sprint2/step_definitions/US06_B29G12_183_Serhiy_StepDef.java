@@ -1,6 +1,6 @@
 package com.Castor_Sprint2.step_definitions;
 
-import com.Castor_Sprint2.pages.US06_B2912_183_Serhiy_VehiclePage;
+import com.Castor_Sprint2.pages.US06_B29G12_183_Serhiy_VehiclePage;
 import com.Castor_Sprint2.utilities.BrowserUtils;
 import com.Castor_Sprint2.utilities.Driver;
 import io.cucumber.java.en.And;
@@ -12,9 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class US06_B2912_183_Serhiy_StepDef {
+public class US06_B29G12_183_Serhiy_StepDef {
 
-    US06_B2912_183_Serhiy_VehiclePage us06_b2912_183_serhiy_vehiclePage = new US06_B2912_183_Serhiy_VehiclePage();
+    US06_B29G12_183_Serhiy_VehiclePage us06_b2912_183_serhiy_vehiclePage = new US06_B29G12_183_Serhiy_VehiclePage();
 
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
 
