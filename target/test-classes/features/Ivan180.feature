@@ -6,10 +6,7 @@ Feature: Default
 		Given User is logged in as Driver and on home page
 			When User click on Learn how to use space
 			Then User sees How To Use Pinbar
-			Then User sees 
-				"""
-				Use pin icon on the right top corner of page to create fast access link in the pinbar."
-				"""	
+			Then User sees help message
 
 	
 	 @VyTrack #@B29G12-237
@@ -17,10 +14,9 @@ Feature: Default
 		Given User is logged in as Store manager and on home page
 			When Store manager click on Learn how to use space
 			Then Store manager How To Use Pinbar
-			Then Store manager sees
-				"""
-				Use pin icon on the right top corner of page to create fast access link in the pinbar."
-				"""	
+			Then Store manager sees help message
+
+
 
 	
 	 @VyTrack #@B29G12-238
@@ -28,10 +24,7 @@ Feature: Default
 		Given User is logged in as Sales manager and on home page
 			When Sales manager click on Learn how to use space
 			Then Sales manager sees How To Use Pinbar
-			Then Sales manager sees
-				"""
-				Use pin icon on the right top corner of page to create fast access link in the pinbar."
-				"""	
+			Then Sales manager sees help message
 
 	
 	@VyTrack #@B29G12-239

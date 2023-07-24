@@ -2,6 +2,7 @@ package com.Castor_Sprint2.step_definitions;
 
 import com.Castor_Sprint2.pages.Ivan182_Pages;
 import com.Castor_Sprint2.pages.LoginPage;
+import com.Castor_Sprint2.utilities.BrowserUtils;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,6 +18,7 @@ public class Ivan182_StepDefinition {
     @Given("Store manager is logged in as Store manager and on home page")
     public void store_manager_is_logged_in_as_store_manager_and_on_home_page() {
         loginPage.login("storemanager77","UserUser123");
+        BrowserUtils.sleep(7);
     }
     @When("Store manager click on Fleet")
     public void store_manager_click_on_fleet() {
@@ -92,6 +94,7 @@ public class Ivan182_StepDefinition {
     @Given("Sales manager is logged in as Store manager and on home page")
     public void sales_manager_is_logged_in_as_store_manager_and_on_home_page() {
         loginPage.login("salesmanager140","UserUser123");
+        BrowserUtils.sleep(7);
     }
     @When("Sales manager click on Fleet")
     public void sales_manager_click_on_fleet() {
