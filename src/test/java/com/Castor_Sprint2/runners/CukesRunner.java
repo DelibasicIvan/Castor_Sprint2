@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/Castor_Sprint2/step_definitions",
         dryRun = false,
-        tags = "@US179_TeoDor",
+        tags = "",
 
         publish = true //generating a report with public link
 )
