@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class US06_B29G12_183_Serhiy_VehiclePage {
+public class US_183_B29G12_Serhiy_VehiclePage {
 
-public US06_B29G12_183_Serhiy_VehiclePage() {
+public US_183_B29G12_Serhiy_VehiclePage() {
     PageFactory.initElements(Driver.getDriver(),this);
 }
     @FindBy(css = "span.title-level-1")

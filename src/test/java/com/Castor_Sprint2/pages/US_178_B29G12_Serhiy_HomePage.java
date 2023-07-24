@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class US01_B29G12_178_Serhiy_HomePage {
+public class US_178_B29G12_Serhiy_HomePage {
 
-    public US01_B29G12_178_Serhiy_HomePage(){
+    public US_178_B29G12_Serhiy_HomePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
